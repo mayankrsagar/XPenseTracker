@@ -112,8 +112,8 @@ const ExpenseForm = () => {
         <div>
           <label htmlFor="category-select">Category:</label>
           <select
-            name="category-select"
-            id="category"
+            name="category"
+            id="category-select"
             value={expenseData.category}
             onChange={handleChange}
           >
